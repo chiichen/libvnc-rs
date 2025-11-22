@@ -89,7 +89,7 @@ fn bindgen_vncserver() {
         .header(rfb_header)
         .header(rfbclient_header)
         .use_core()
-        .raw_line("#![allow(clippy::all)]")
+        .raw_line("#[allow(clippy::all)]")
         .clang_args([
             format!("-I{}/{}", dst.display(), "include"),
             #[cfg(target_os = "windows")]
