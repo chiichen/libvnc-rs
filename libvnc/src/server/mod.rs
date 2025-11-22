@@ -29,7 +29,8 @@ impl RfbServer {
         let buffer_size =
             TryInto::<usize>::try_into(config.width * config.height * config.bytes_per_pixel)
                 .unwrap();
-        (unsafe { *ptr }).frameBuffer = vec![0; buffer_size].as_ptr() as *mut i8;
+        let mut buffer: Vec<i8> = vec![0; buffer_size];
+        (unsafe { *ptr }).frameBuffer = buffer.as_mut_ptr();
         let host_addr = CString::new(addr.ip().to_string()).unwrap(); //What if this CString is dropped at the end of new
         (unsafe { *ptr }).httpDir = host_addr.as_ptr() as *mut i8;
         (unsafe { *ptr }).port = addr.port() as i32;
