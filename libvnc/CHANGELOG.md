@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+<<<<<<< Updated upstream
+=======
+## [0.1.6](https://github.com/chiichen/libvnc-rs/compare/libvnc-v0.1.5...libvnc-v0.1.6) - 2026-01-07
+
+### Other
+
+- updated the following local packages: libvnc-sys
+
+## [0.1.5](https://github.com/chiichen/libvnc-rs/compare/libvnc-v0.1.4...libvnc-v0.1.5) - 2025-11-22
+
+### Other
+
+- skip clippy check for windows target
+
+>>>>>>> Stashed changes
 ## [0.1.4](https://github.com/Chiichen/libvnc-rs/compare/libvnc-v0.1.3...libvnc-v0.1.4) - 2024-11-30
 
 ### Other

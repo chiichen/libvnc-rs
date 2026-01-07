@@ -1,7 +1,11 @@
 [package]
 name        = "libvnc"
 authors     = ["Chiichen <chiichen@qq.com>"]
+<<<<<<< Updated upstream
 version     = "0.1.4"
+=======
+version     = "0.1.6"
+>>>>>>> Stashed changes
 edition     = "2021"
 keywords    = ["vnc", "libvnc", "vncserver", "rfb"]
 license     = "LGPL-3.0-only"
@@ -10,7 +14,11 @@ description = "libvncserver(client) bindings for Rust. VNC is a set of programs 
 repository  = "https://github.com/Chiichen/libvnc-rs/tree/master/libvnc"
 homepage    = "https://github.com/Chiichen/libvnc-rs"
 [dependencies]
+<<<<<<< Updated upstream
 libvnc-sys = { path = "../libvnc-sys", version = "0.1.5" }
+=======
+libvnc-sys = { path = "../libvnc-sys", version = "0.1.7" }
+>>>>>>> Stashed changes
 log        = "0.4.21"
 
 [dev-dependencies]

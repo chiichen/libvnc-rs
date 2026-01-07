@@ -1,7 +1,11 @@
 [package]
 name        = "libvnc-sys"
 authors     = ["Chiichen <chiichen@qq.com>"]
+<<<<<<< Updated upstream
 version     = "0.1.5"
+=======
+version     = "0.1.7"
+>>>>>>> Stashed changes
 edition     = "2021"
 keywords    = ["vnc", "libvnc", "vncserver", "binding"]
 license     = "LGPL-3.0-only"

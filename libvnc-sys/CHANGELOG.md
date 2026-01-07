@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+<<<<<<< Updated upstream
+=======
+## [0.1.7](https://github.com/chiichen/libvnc-rs/compare/libvnc-sys-v0.1.6...libvnc-sys-v0.1.7) - 2026-01-07
+
+### Other
+
+- *(deps)* bump libvnc-sys/libvncserver from `23d7ef6` to `9e1d879` ([#47](https://github.com/chiichen/libvnc-rs/pull/47))
+
+## [0.1.6](https://github.com/chiichen/libvnc-rs/compare/libvnc-sys-v0.1.5...libvnc-sys-v0.1.6) - 2025-11-22
+
+### Other
+
+- skip clippy check for windows target
+
+>>>>>>> Stashed changes
 ## [0.1.5](https://github.com/Chiichen/libvnc-rs/compare/libvnc-sys-v0.1.4...libvnc-sys-v0.1.5) - 2024-11-30
 
 ### Other
